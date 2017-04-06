@@ -66,7 +66,7 @@ df['Total_Awards_Nominated']=df['Awards_Nominated']+df['Prime_Awards_Nominated']
 #To select desired columns
 dfoutput=df[['Awards','Total_Awards_Won','Total_Awards_Nominated','Prime_Awards_Nominated','Oscar_Awards_Nominated','Golden_GlobeAwards_Nominated','Bafta_Awards_Nominated','Prime_Awards_Won','Oscar_Awards_Won','Golden_GlobeAwards_Won','Bafta_Awards_Won']]
 
-#Eliminating zero value rows
+#Eliminating rows which have only zeroes
 dfoutput= dfoutput.loc[~(dfoutput==0).all(axis=1)]
 
 

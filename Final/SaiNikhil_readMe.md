@@ -4,15 +4,14 @@
 
 <img src="extra/Python_logo.png">
 
-                                            Finance Market Data Analysis using API
-
+## Finance Market Data Analysis using API
 
 <img src="extra/finance.jpg">
 
 ## Motivation to Choose Finance Market Analysis
 
-The finance market industry is all about loads of numeric data which can be analysed and visualized efficiently using Python and its built in libraries. 
-To gain insights about the finance industry.
+- The finance market industry is all about loads of numeric data which can be analysed and visualized efficiently using Python and its built in libraries. 
+- To gain insights about the finance industry.
 
 ## Contents of ReadMe
 1. Background
@@ -25,7 +24,9 @@ To gain insights about the finance industry.
 
 ## 1. Background
 
-Financial Market Analysis deals with particluar market shares upon the performance of the total number of shares that are traded in that market. On a given day when the market closes with the prices of most of its securities on the higher side, then it could be said to have performed well. 
+- Financial Market Analysis deals with particluar market shares upon the performance of the total number of shares that are traded in that market. 
+- On a given day when the market closes with the prices of most of its securities on the higher side, then it could be said to have performed well. 
+- There are four main values which every security/share has which are Open Close High and Low (OHCL). These values play a very important role in the finance market 
 
 Three analysis on the financial data has been done in Python using libraries such as pandas, matplotlib and requests.
 
@@ -45,11 +46,11 @@ The top technology firms, banks and automobile industry data has been downloaded
  
 ## 3. Analysis Performed
 
-There are three analysis performed on the data captured which are helpful in visualizing.
+There are three analysis performed on the data captured which are helpful in analyzing and visualization.
 
 ### a) Analysis 1
 
-Topic - To Analyse which share of the technology market has maximum returns.
+Topic - To Analyse which share of the technology market has maximum returns withing an industry
 
 Packages Used -:
 
@@ -74,11 +75,11 @@ Packages Used -:
 
 7. A function has been created to plot the candlestick graph.
 
-A candlestick chart (also called Japanese candlestick chart) is a style of financial chart used to describe price movements of a security.It plots the Open, High, Close and Low of a security per day. 
+8. A candlestick chart (also called Japanese candlestick chart) is a style of financial chart used to describe price movements of a security.It plots the Open, High, Close and Low of a security per day. 
 
 <img src="extra/candlestick.png">
 
- 8. The candlestick graph of the Apple is plotted as below, black indicates the price has increased and red decreased   as compared to the previous day.
+ 9. The candlestick graph of the Apple is plotted as below, black indicates the price has increased and red decreased   as compared to the previous day.
 
 <img src="analysis/ana_1/Apple.png">
 
@@ -117,7 +118,7 @@ Packages Used -:
 5. A for each mechanism has been used to plot the moving averages of the shares required to be analysed using the plot.
 <img src="analysis/ana_2/movingaverage_microsoft.png">
 
-8. The percentage daily return is calculated and displayes using the plot
+6. The percentage daily return is calculated and displayes using the plot
 <img src="analysis/ana_2/dailyreturn_microsoft.png">
 
 
@@ -158,16 +159,15 @@ Packages Used -:
 5. A join plot to compare the daily return of Microsoft and Cisco are plotted
 <img src="analysis/ana_3/joinplot.png">
 
-6. A pair grid has been plotted plotted of all the four companies to determine the correlation.
-   A pair grid of seaborn has been used as it gives full control and is the best when comes to comparing and contrasting. 
+6. A pair grid has been plotted plotted of all the four companies to determine the correlation.A pair grid of seaborn has been used as it gives full control and is the best when comes to comparing and contrasting. 
 
 <img src="analysis/ana_3/PairGridPlot.png">
 
-8. As the above plot is difficult to read and make a decision of the correaltion between shares, the numerical values of correlation are plotted using the heatmap.
+7. As the above plot is difficult to read and make a decision of the correaltion between shares, the numerical values of correlation are plotted using the heatmap.
 
 <img src="analysis/ana_3/heatmap.png">
 
-9. The next step is the risk analysis, which is plotted comparing the expected return versus the standard deviation.
+8. The next step is the risk analysis, which is plotted comparing the expected return versus the standard deviation.
 <img src="analysis/ana_3/risk.png">
 
 
@@ -181,6 +181,13 @@ Plot Files: <a href="analysis/ana_3">Plots</a>
 - A quick glane at the pair grid formed by seaborn tells us that there is a better correlation between microsoft and cisco, but it does not give a clear idea. The heatmap has been plotted to show the numerical comparison between them.
 - The heatmap tells us that there is a better correaltion of 0.36 between Microsoft and Cisco. This tells that inside the technology industry Microsoft and Cisco being core networking companies have similar trends.The trends could be due to a change of the products which are common to them.
 - The risk plot tells us that Google and Microsoft have almost the same returns and risk when compared to others, so we can choose both of them in contrast to others to invest. 
+
+## Final Colcusion
+
+- Python has many useful inbuilt libraries which makes a developers/analysts job easy by not worrying too much about the logic and syntax of the code
+- It helps users analyze and visualize information of any available dataset.
+- The inbuilt libraries and the functions are handy to perform calculations with ease.
+- The hands-on experience of doing assignemnts and projects was a great learning experience for me 
 
 
 

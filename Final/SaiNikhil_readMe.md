@@ -75,7 +75,7 @@ Packages Used -:
 
 7. A function has been created to plot the candlestick graph.
 
- 8.A candlestick chart (also called Japanese candlestick chart) is a style of financial chart used to describe price movements of a security.It plots the Open, High, Close and Low of a security per day. 
+8. A candlestick chart (also called Japanese candlestick chart) is a style of financial chart used to describe price movements of a security.It plots the Open, High, Close and Low of a security per day. 
 
 <img src="extra/candlestick.png">
 
@@ -118,7 +118,7 @@ Packages Used -:
 5. A for each mechanism has been used to plot the moving averages of the shares required to be analysed using the plot.
 <img src="analysis/ana_2/movingaverage_microsoft.png">
 
-8. The percentage daily return is calculated and displayes using the plot
+6. The percentage daily return is calculated and displayes using the plot
 <img src="analysis/ana_2/dailyreturn_microsoft.png">
 
 
@@ -159,16 +159,15 @@ Packages Used -:
 5. A join plot to compare the daily return of Microsoft and Cisco are plotted
 <img src="analysis/ana_3/joinplot.png">
 
-6. A pair grid has been plotted plotted of all the four companies to determine the correlation.
-   A pair grid of seaborn has been used as it gives full control and is the best when comes to comparing and contrasting. 
+6. A pair grid has been plotted plotted of all the four companies to determine the correlation.A pair grid of seaborn has been used as it gives full control and is the best when comes to comparing and contrasting. 
 
 <img src="analysis/ana_3/PairGridPlot.png">
 
-8. As the above plot is difficult to read and make a decision of the correaltion between shares, the numerical values of correlation are plotted using the heatmap.
+7. As the above plot is difficult to read and make a decision of the correaltion between shares, the numerical values of correlation are plotted using the heatmap.
 
 <img src="analysis/ana_3/heatmap.png">
 
-9. The next step is the risk analysis, which is plotted comparing the expected return versus the standard deviation.
+8. The next step is the risk analysis, which is plotted comparing the expected return versus the standard deviation.
 <img src="analysis/ana_3/risk.png">
 
 

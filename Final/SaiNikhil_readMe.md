@@ -4,8 +4,7 @@
 
 <img src="extra/Python_logo.png">
 
-                                            Finance Market Data Analysis using API
-
+## Finance Market Data Analysis using API
 
 <img src="extra/finance.jpg">
 

@@ -10,8 +10,8 @@
 
 ## Motivation to Choose Finance Market Analysis
 
-The finance market industry is all about loads of numeric data which can be analysed and visualized efficiently using Python and its built in libraries. 
-To gain insights about the finance industry.
+- The finance market industry is all about loads of numeric data which can be analysed and visualized efficiently using Python and its built in libraries. 
+- To gain insights about the finance industry.
 
 ## Contents of ReadMe
 1. Background
@@ -24,7 +24,9 @@ To gain insights about the finance industry.
 
 ## 1. Background
 
-Financial Market Analysis deals with particluar market shares upon the performance of the total number of shares that are traded in that market. On a given day when the market closes with the prices of most of its securities on the higher side, then it could be said to have performed well. 
+- Financial Market Analysis deals with particluar market shares upon the performance of the total number of shares that are traded in that market. 
+- On a given day when the market closes with the prices of most of its securities on the higher side, then it could be said to have performed well. 
+- There are four main values which every security/share has which are Open Close High and Low (OHCL). These values play a very important role in the finance market 
 
 Three analysis on the financial data has been done in Python using libraries such as pandas, matplotlib and requests.
 
@@ -44,11 +46,11 @@ The top technology firms, banks and automobile industry data has been downloaded
  
 ## 3. Analysis Performed
 
-There are three analysis performed on the data captured which are helpful in visualizing.
+There are three analysis performed on the data captured which are helpful in analyzing and visualization.
 
 ### a) Analysis 1
 
-Topic - To Analyse which share of the technology market has maximum returns.
+Topic - To Analyse which share of the technology market has maximum returns withing an industry
 
 Packages Used -:
 
@@ -73,11 +75,11 @@ Packages Used -:
 
 7. A function has been created to plot the candlestick graph.
 
-A candlestick chart (also called Japanese candlestick chart) is a style of financial chart used to describe price movements of a security.It plots the Open, High, Close and Low of a security per day. 
+ 8.A candlestick chart (also called Japanese candlestick chart) is a style of financial chart used to describe price movements of a security.It plots the Open, High, Close and Low of a security per day. 
 
 <img src="extra/candlestick.png">
 
- 8. The candlestick graph of the Apple is plotted as below, black indicates the price has increased and red decreased   as compared to the previous day.
+ 9. The candlestick graph of the Apple is plotted as below, black indicates the price has increased and red decreased   as compared to the previous day.
 
 <img src="analysis/ana_1/Apple.png">
 

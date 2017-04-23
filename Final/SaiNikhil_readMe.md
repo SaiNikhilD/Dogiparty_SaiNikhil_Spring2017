@@ -183,5 +183,12 @@ Plot Files: <a href="analysis/ana_3">Plots</a>
 - The heatmap tells us that there is a better correaltion of 0.36 between Microsoft and Cisco. This tells that inside the technology industry Microsoft and Cisco being core networking companies have similar trends.The trends could be due to a change of the products which are common to them.
 - The risk plot tells us that Google and Microsoft have almost the same returns and risk when compared to others, so we can choose both of them in contrast to others to invest. 
 
+## Final Colcusion
+
+- Python has many useful inbuilt libraries which makes a developers/analysts job easy by not worrying too much about the logic and syntax of the code
+- It helps users analyze and visualize information of any available dataset.
+- The inbuilt libraries and the functions are handy to perform calculations with ease.
+- The hands-on experience of doing assignemnts and projects was a great learning experience for me 
+
 
 
